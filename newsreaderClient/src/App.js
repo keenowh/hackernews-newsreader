@@ -5,7 +5,7 @@ import { ArticlesContainer } from "./containers/ArticlesContainer";
 
 export function App() {
   const client = new ApolloClient({
-    uri: "http://graphql:4000",
+    uri: "graphql:4000",
   });
 
   return (
