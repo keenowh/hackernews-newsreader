@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  web:
+    build:
+      context: ./newsreader-client
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+  graphql:
+    build:
+      context: ./newsreader-graphql
+      dockerfile: Dockerfile
+    ports:
+      - "4000:4000"
