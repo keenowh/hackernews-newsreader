@@ -1,7 +1,7 @@
-import { HackerNewsAPI} from './hackernews'
-import { NewYorkTimesAPI} from './newyorktimes'
+import { HackerNewsAPI } from "./hackernews";
+import { NewYorkTimesAPI } from "./newyorktimes";
 
 export default {
   hackernews: new HackerNewsAPI(),
-  newyorktimes: new NewYorkTimesAPI()
-}
+  // newyorktimes: new NewYorkTimesAPI()
+};

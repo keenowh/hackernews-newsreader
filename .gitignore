@@ -1,0 +1,4 @@
+/newsreaderGraphql/node_modules/
+/newsreaderClient/node_modules/
+/newsreaderClient/package-lock.json
+/newsreaderGraphql/package-lock.json
